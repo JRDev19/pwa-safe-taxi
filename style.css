@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  margin: 0;
+}
+
+#header {
+    width: 100vw;
+    height: 22vh;
+    background-color: #FB325E;
+}
+  
+#app {
+    width: 100vw;
+    height: 78vh;
+    position: absolute;
+    bottom: 0;
+}
+
+@media (min-height: 750px) {
+  #header {
+    height: 15vh;
+  }
+  
+  #app {
+    height: 85vh;
+  }
+}
