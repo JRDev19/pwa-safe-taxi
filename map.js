@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!container) throw new Error('There is no div with the id: "map" ');
     
     //Mostrar el mapa en la pantalla
-    config.apiKey = 'ZAeS0BkqUR2nTaRbBgBY';
+    config.apiKey = 'Your Api Key!!!';
     const map = new Map({
         container,
         zoom: 14
